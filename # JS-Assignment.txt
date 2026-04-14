@@ -1,0 +1,33 @@
+# JS-Assignment
+
+This assignment contains 6 JavaScript problems. I solved each question in a separate file using simple JavaScript. I used prompt() to take input from the user and alert() to show the output.
+
+## Question 1
+In this question, I used a loop from L to R and checked each number. I checked if the number is divisible by K, does not contain 0, and the sum of its digits is a prime number.
+
+Time Complexity: O(n)
+
+## Question 2
+I applied the given rules 3 times using if-else conditions for even and odd numbers. Then I checked if the result is a 3-digit number and if the middle digit is equal to the seed.
+
+Time Complexity: O(1)
+
+## Question 3
+I tried values of X from 0 to 100000 and checked if N + X is a palindrome and divisible by K. When I found the smallest valid X, I stopped.
+
+Time Complexity: O(n)
+
+## Question 4
+I calculated the fare step by step based on the conditions given, and finally rounded the result up to the nearest multiple of 5.
+
+Time Complexity: O(1)
+
+## Question 5
+I used a loop to keep adding numbers while skipping multiples of (seed + 2) until the sum becomes greater than or equal to N.
+
+Time Complexity: O(n)
+
+## Question 6
+I calculated the score using the formula, then applied all the conditions and printed the final result with PASS or FAIL.
+
+Time Complexity: O(1)
